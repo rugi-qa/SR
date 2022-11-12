@@ -7,4 +7,7 @@ for i in range(1, n + 1):  # Цикл по строкам
         if 1 < i < n and 1 < j < n:
             elem = 0
         print(elem, end = " ")
+        if 0 < j < 3:
+            total += elem
     print("")
+print(total)
